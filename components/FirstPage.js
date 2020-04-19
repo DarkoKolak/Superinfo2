@@ -21,21 +21,21 @@ class FirstPage extends React.Component{
             case 6:
                 return "Fokus";
             case 5:
-                return "Život+";
+                return <Text style={{color:"#4C8DC3"}}>Život+</Text>;
             case 9:
-                return "Sport";
+                return <Text style={{color:"#75ABAD"}}>Sport</Text>;
             case 2:
-                return "Majka i dijete";
+                return <Text style={{color: "#A8795D"}}>Majka i dijete</Text> ;
             case 3:
-                return "Dom i vrt";
+                return<Text style={{color: "brown"}}>Dom i vrt</Text> ;
             case 31:
-                return "Eco";
+                return <Text style={{color: "green"}}>Eco</Text>;
             case 7:
-                return "Scena";
+                return <Text style={{color: "#DF5286"}}>Scena</Text> ;
             case 10:
-                return "Gastro";
+                return<Text style={{color: "#A0A028"}}>Gastro</Text>;
             case 8:
-                return "Lifestyle";
+                return <Text style={{color: "purple"}}>Lifestyle</Text> ;
             default:
                 return "Fokus";                            
         }
